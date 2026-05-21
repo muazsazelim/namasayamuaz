@@ -1,4 +1,3 @@
 # namasayamuaz
 
 Personal Website
-
