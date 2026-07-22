@@ -84,11 +84,21 @@
 
         h1 {
             font-family: 'Cormorant Garamond', 'Hoefler Text', Garamond, Georgia, serif;
-            font-size: clamp(4rem, 10vw, 7.25rem);
-            font-weight: 600;
-            line-height: 0.9;
-            letter-spacing: 0;
-            font-variant: small-caps;
+            font-size: clamp(3rem, 7.5vw, 5.5rem);
+            font-weight: 400;
+            line-height: 0.95;
+            letter-spacing: 0.02em;
+        }
+
+        h1 .name-cap {
+            text-transform: uppercase;
+        }
+
+        h1 .name-small {
+            font-size: 0.72em;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            vertical-align: baseline;
         }
 
         .email {
@@ -142,7 +152,7 @@
             }
 
             h1 {
-                font-size: clamp(2.75rem, 14vw, 3.8rem);
+                font-size: clamp(2.1rem, 11vw, 3rem);
             }
 
             .bottom span,
@@ -164,7 +174,7 @@
         </header>
 
         <section class="intro" aria-labelledby="name">
-            <h1 id="name">Mu'az Sazelim</h1>
+            <h1 id="name"><span class="name-cap">M</span><span class="name-small">U'AZ</span> <span class="name-cap">S</span><span class="name-small">AZELIM</span></h1>
             <a class="email" href="mailto:muazsazelim019@gmail.com">muazsazelim019@gmail.com</a>
         </section>
 
